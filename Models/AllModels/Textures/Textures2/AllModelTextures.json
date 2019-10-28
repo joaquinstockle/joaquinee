@@ -1,0 +1,136 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Body": {
+            "shader": "Main shader"
+        },
+        "Body2": {
+            "shader": "Main shader"
+        },
+        "Body5": {
+            "shader": "Main shader"
+        },
+        "Body6": {
+            "shader": "Main shader"
+        },
+        "CLaw": {
+            "shader": "Main shader"
+        },
+        "CLaw1": {
+            "shader": "Main shader"
+        },
+        "CLaw2": {
+            "shader": "Main shader"
+        },
+        "Ceiling1": {
+            "shader": "Main shader"
+        },
+        "EndPiece": {
+            "shader": "Main shader"
+        },
+        "Gears": {
+            "shader": "Main shader"
+        },
+        "Glass": {
+            "shader": "Main shader"
+        },
+        "HeadBottom": {
+            "shader": "Main shader"
+        },
+        "HeadTop": {
+            "shader": "Main shader"
+        },
+        "Joints": {
+            "shader": "Main shader"
+        },
+        "MachineL": {
+            "shader": "Main shader"
+        },
+        "MidHead": {
+            "shader": "Main shader"
+        },
+        "Mouth": {
+            "shader": "Main shader"
+        },
+        "Neck1": {
+            "shader": "Main shader"
+        },
+        "Other": {
+            "shader": "Main shader"
+        },
+        "Pillars": {
+            "shader": "Main shader"
+        },
+        "PlatformsL": {
+            "shader": "Main shader"
+        },
+        "RaymanL": {
+            "shader": "Main shader"
+        },
+        "Scales": {
+            "shader": "Main shader"
+        },
+        "Scales2": {
+            "shader": "Main shader"
+        },
+        "Scales3": {
+            "shader": "Main shader"
+        },
+        "TailJoints": {
+            "shader": "Main shader"
+        },
+        "TankL1": {
+            "shader": "Main shader"
+        },
+        "TankL2": {
+            "shader": "Main shader"
+        },
+        "TankL4": {
+            "shader": "Main shader"
+        },
+        "WindowFrameMT": {
+            "shader": "Main shader"
+        },
+        "Wires": {
+            "shader": "Main shader"
+        },
+        "lambert2": {
+            "shader": "Main shader"
+        },
+        "lambert3": {
+            "shader": "Main shader"
+        }
+    }
+}
